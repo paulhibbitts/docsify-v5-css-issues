@@ -1,0 +1,20 @@
+/* Fix for Coverpage title link colors with preview build of Docsify v5 theme */
+.cover h1 {
+  position: relative;
+  color: var(--cover-title-color);
+  font: var(--cover-title-font);
+
+  a {
+    &,
+    &:hover {
+      text-decoration-color: transparent;
+    }
+    color: var(--cover-title-color);
+  }
+
+  small {
+    font-weight: var(--font-weight);
+    position: absolute;
+    bottom: 0;
+  }
+}

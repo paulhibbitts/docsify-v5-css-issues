@@ -1,0 +1,9 @@
+/* Fix for Transparent iframe support for both light and dark modes with preview build of Docsify v5 theme */
+@media (prefers-color-scheme: dark) {
+  iframe,
+  iframe *,
+  iframe[src],
+  iframe[src] * {
+    color-scheme: light;
+  }
+}

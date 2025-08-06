@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>docsify</title>
+    <meta
+      name="google-site-verification"
+      content="6t0LoIeFksrjF4c9sqUEsVXiQNxLp2hgoqo0KryT-sE"
+    />
+    <meta
+      name="keywords"
+      content="doc,docs,documentation,gitbook,creator,generator,github,jekyll,github-pages"
+    />
+    <meta name="description" content="A magical documentation generator." />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+
+    <!-- Core Theme -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/docsify@^5.0.0-rc/dist/themes/core.min.css"
+    />
+
+    <!-- Theme Add-on(s) -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/docsify@^5.0.0-rc/dist/themes/addons/core-dark.min.css"
+      media="(prefers-color-scheme: dark)"
+      data-group="addon"
+      data-sheet="core-dark-auto"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/docsify@^5.0.0-rc/dist/themes/addons/core-dark.min.css"
+      data-group="addon"
+      data-sheet="core-dark"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/docsify@^5.0.0-rc/dist/dist/themes/addons/vue.min.css"
+      data-group="addon"
+      data-sheet="vue"
+      disabled
+    />
+
+    <!-- Coverpage hover fix -->
+    <!-- <link rel="stylesheet" href="coverpage-fix.css" /> -->
+
+    <!-- iFrame transparency fix -->
+    <!-- <link rel="stylesheet" href="iframe-transparency-fix.css" /> -->
+
+    <!-- iCodeblock table contrast fix -->
+    <!-- <link rel="stylesheet" href="codeblock-table-contrast-fix.css" /> -->
+
+    <!-- Site styles -->
+    <style>
+      :root {
+        --link-color: #0000cc;
+        --cover-title-color: #333;
+      }
+
+      /* Plugin: Carbon Ads */
+      #carbonads > :last-child {
+        margin-block: calc((1em * var(--line-height)) / 2);
+      }
+
+      /* UI Kit */
+      .ui-kit-color {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        font-size: var(--font-size-s);
+      }
+
+      .ui-kit-color figure {
+        flex-grow: 1;
+        margin: 0;
+        padding: 0;
+      }
+
+      .ui-kit-color figure div {
+        height: 4rem;
+        border-radius: var(--border-radius);
+      }
+
+      .ui-kit-color figcaption {
+        text-align: center;
+        padding: 0.5em 0;
+      }
+    </style>
+    <script>
+      // Set html "lang" attribute based on URL
+      (function () {
+        const lang = location.hash.match(/#\/(de-de|es|ru-ru|zh-cn)\//);
+
+        if (lang) {
+          document.documentElement.setAttribute("lang", lang[1]);
+        }
+      })();
+    </script>
+  </head>
+
+  <body class="loading sidebar-chevron-right sidebar-group-box">
+    <div id="app"></div>
+    <script>
+      // Docsify configuration
+      window.$docsify = {
+        name: "Simple Docsify Template",
+        auto2top: true,
+        coverpage: true,
+        // hideSidebar: true,
+        loadSidebar: true,
+        loadNavbar: false,
+        // mergeNavbar: true,
+        maxLevel: 4,
+        // repo: 'docsifyjs/docsify',
+        // routerMode: 'history',
+        subMaxLevel: 2,
+      };
+    </script>
+    <!-- Last working sidebar indents Preview Dope2 https://docsify-preview-gnxeyy4ef-docsifyjs.vercel.app/ -->
+    <!-- Preview where sidebar indents issue first appears Preview Merge branch 'develop' into feat/dexie https://docsify-preview-57eiemxx4-docsifyjs.vercel.app/  -->
+    <!--  <script src="https://cdn.jsdelivr.net/npm/docsify@^5.0.0-rc/dist/docsify.min.js"></script> -->
+    <script src="https://docsify-preview-kds12zhj0-docsifyjs.vercel.app/dist/docsify.min.js"></script>
+  </body>
+</html>
