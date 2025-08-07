@@ -1,4 +1,4 @@
-# Quick start
+# Quick start  id=quick-start
 
 > A magical documentation site generator
 
