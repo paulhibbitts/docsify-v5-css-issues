@@ -1,4 +1,4 @@
-# Quick start  id=quick-start
+<h1><a href="#quick-start">Docsify Template</a></h1>
 
 > A magical documentation site generator
 
